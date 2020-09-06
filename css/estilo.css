@@ -283,6 +283,12 @@ p {
     }
 }
 
+/* Gestão Contato */
+
+#contato {
+    min-height: 800px;
+}
+
 /* Gestão footer*/
 
 footer {
