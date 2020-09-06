@@ -225,8 +225,10 @@ p {
 /* Gestão Home */
 
 #home {
+    padding: 90px 0 90px 0;    
     background-image: url(../img/PapelParede6.png);
     background-size: 100%;
+    background-color: white;
     min-height: 400px;
 }
 
