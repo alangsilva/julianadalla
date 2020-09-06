@@ -9,7 +9,7 @@ header {
     
     height: 90px;
     width: 100%;
-    background-color: #E7E2FC;
+    background-color: black;
     font-size: 20px;
     text-decoration: none;
     position: fixed;
@@ -29,49 +29,66 @@ header {
 
 #menu a {
     text-decoration: none;
-    color: black;
-    padding: 50px;
+    color:  #E7E2FC;
+    padding: 100px;
+    font-size: 30px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1700px) {
     #menu a {
+        color:  #E7E2FC;
         padding: 30px;
-        font-size: 15px;
+        font-size: 25px;
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 910px) {
+    #menu a {
+        color:  #E7E2FC;
+        padding: 25px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
     #menu a {
         padding: 20px;
         
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 740px) {
+    #menu a {
+        padding: 15px;
+        
+    }
+}
+
+@media (max-width: 690px) {
+    #menu a {
+        padding: 10px;
+        
+    }
+}
+
+@media (max-width: 640px) {
     #menu a {
         padding: 5px;
-        
-    }
-}
-
-@media (max-width: 510px) {
-    #menu a {
-        padding: 2px;
-        
-    }
-}
-
-@media (max-width: 500px) {
-    #menu a {
-        padding: 1px;
         font-size: 10px;
     }
 }
 
-@media (max-width: 395px) {
+@media (max-width: 430px) {
     #menu a {
-        padding: 1px;
+        padding: 2px;
         font-size: 8px;
+    }
+}
+
+@media (max-width: 370px) {
+    #menu a {
+        padding: 0.5px;
+        font-size: 5px;
     }
 }
 
@@ -88,15 +105,89 @@ section {
 #projetos,
 #contato {
     padding: 95px 0 0 0;
-    height: 900px;
+    height: 100%;
     background-color: #E7E2FC;
+    overflow: auto; 
 }
+
+h2 {
+    font-size: 60px;
+    padding: 50px 50px 50px 50px;
+}
+
+p {
+    padding: 100px 50px 0 50px;
+    font-size: 40px;
+}
+
+@media (max-width: 1500px) {
+    h2 {
+        font-size: 50px;
+        padding: 40px 40px 40px 40px;
+    }
+    
+    p {
+        padding: 80px 40px 0 40px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1000px) {
+    h2 {
+        font-size: 40px;
+        padding: 30px 30px 30px 30px;
+    }
+    
+    p {
+        padding: 60px 30px 0 30px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 700px) {
+    h2 {
+        font-size: 30px;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    p {
+        padding: 40px 15px 0 15px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 20px;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    p {
+        padding: 30px 10px 0 10px;
+        font-size: 20px;
+    }
+}
+
+
 
 #home {
     background-image: url(../img/PapelParede6.png);
     background-size: 90%;
     
 }
+
+.A {
+    text-align: left;
+    font-size: 100px;
+    padding: 50px;
+}
+
+.B {
+    text-align: right;
+    font-size: 100px;
+    padding: 450px 50px 0 0;
+}
+
 
 /* Gestão footer*/
 
