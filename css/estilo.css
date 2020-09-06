@@ -225,11 +225,12 @@ p {
 /* Gestão Home */
 
 #home {
-    padding: 90px 0 90px 0;    
+    padding: 90px 0 10px 0;    
     background-image: url(../img/PapelParede6.png);
     background-size: 100%;
     background-color: white;
     min-height: 400px;
+    text-shadow: white 2px 2px, white -2px 2px, white 2px 2px, white -2px -2px;    
 }
 
 .A {
