@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+/* gestão do header */
+
+header {
+    
+    height: 90px;
+    width: 100%;
+    background-color: #E7E2FC;
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+}
+
+#logo {
+    float: left;
+    padding: 5px 0 0 50px;
+    
+}
+
+#menu {
+    float: right;
+    text-decoration: none;
+    padding: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+}
+
+@media (max-width: 1100px) {
+    #menu a {
+        padding: 30px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 770px) {
+    #menu a {
+        padding: 20px;
+        
+    }
+}
+
+@media (max-width: 660px) {
+    #menu a {
+        padding: 5px;
+        
+    }
+}
+
+@media (max-width: 510px) {
+    #menu a {
+        padding: 2px;
+        
+    }
+}
+
+@media (max-width: 500px) {
+    #menu a {
+        padding: 1px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 395px) {
+    #menu a {
+        padding: 1px;
+        font-size: 8px;
+    }
+}
+
+/* Gestão Content */
+
+section {
+    clear: both;
+    
+}
+
+#home,
+#sobre,
+#formação,
+#projetos,
+#contato {
+    padding: 95px 0 0 0;
+    height: 900px;
+    background-color: #E7E2FC;
+}
+
+#home {
+    background-image: url(../img/PapelParede6.png);
+    background-size: 90%;
+    
+}
+
+/* Gestão footer*/
+
+footer {
+    margin: auto;
+    background-color: #E7E2FC;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    padding: 0 0 50px 0;
+}
+
