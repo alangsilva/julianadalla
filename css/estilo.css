@@ -176,6 +176,7 @@ p {
 #home {
     padding: 90px 0 10px 0;    
     background-image: url(../img/PapelParede6.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     background-color: white;
     min-height: 400px;
@@ -203,8 +204,8 @@ p {
 
 @media (max-width: 1200px) {
     #home {
-        background-image: url(../img/PapelParede6.png);
-        background-size: 100%;
+        background-size: 100%; 
+        background-position: center;
         max-height: 10px;
         
     }
